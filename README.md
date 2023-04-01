@@ -26,6 +26,10 @@ REMINDER
       |-writer.c
 ```
 
+## Lab3-2
+- Just replace the leds in Lab3 by 7th-segment, so we hace to use more GPIO pins than Lab3. (only driver need to be modified)
+- Have to know how to use the common cathode 7-segment.
+
 ## Lab4
 - mydev.c is the driver for virtual 16-segment.
 
