@@ -5,7 +5,7 @@
 
 BUILD
 - `$ sudo make`  to crosscompile the driver for RPi 
-- use `scp` command to copy the kernel object file led_driver.ko from virtualbox to Rpi
+- use `scp` command to copy the kernel object file led_driver.ko from virtualbox to RPi
   - Before executing `scp`, make sure 
     - **1. `$ rmmod led_driver` the driver module has removed**
     - **2. old led_driver.ko in RPi has deleted**
@@ -13,7 +13,7 @@ BUILD
 - `$ gcc reader.c -o reader` on RPi to compile writer.c to extuable(shared modules)
 
 DEMO
-- `$ insmod led_driver.ko` under the folder which has led_driver.ko in PIi
+- `$ insmod led_driver.ko` under the folder which has led_driver.ko in RPi
 
 REMINDER
 - execute `make` under lab3/ folder, which is the same path as linux/ folder in virtualbox
