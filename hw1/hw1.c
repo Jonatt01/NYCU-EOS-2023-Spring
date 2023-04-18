@@ -83,7 +83,7 @@ int main(){
                     break;
                 }
                 else{
-                    int area = second_choice - '0'; // char to int#
+                    int area = second_choice - '0'; // char to int
 
                     // write to led driver
                     for(int i=0;i<3;i++){
