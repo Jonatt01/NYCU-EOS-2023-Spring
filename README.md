@@ -62,7 +62,7 @@ DEMO
 - `$ sudo ./hw1` to run the main file for hw1.
 
 ## Lab5
-- make sure you have installed 'sl' and 'tmux' already
+- make sure you have installed "sl" and "tmux" already
   - command : `$ sudo apt install sl tmux`
 - `crtl-b` and `:kill-session` to close the session, otherwise you will leave a zombie process.
 - cpmmand for checking if there is any zombie process : `$ ps aux | grep defunct | grep -v grep`
