@@ -44,3 +44,31 @@ DEMO (`indmod` and `rmmod` are included in demo.sh)
 - :star: All the files has to put in the same folder.
 - `$ sudo python2 ./seg <port>` to open 16-segment on virtualbox (act as virtual device)
 - `$ sudo ./demo` on RPi to demo lab4 (before demo, please check if the Name, ip, port are correct)
+
+## HW1
+- hw1.c is the main function.
+- seg_driver.c is the driver for 7 segment device.
+- led_driver.c is the driver for leds.
+- hw1.c pass an char array of three elements representing # each section waiting people to led_driver.c
+- hw1.c pass an char array of one element which is the number to display.
+
+BUILD
+- `$ sudo make` to crosscompile the driver for RPi
+  - Notice that we compiled source file to two kernel source file and add them to the obj-m list.
+  - 他會自己做名字的對應
+DEMO
+- `$ insmod led_driver.ko` under the folder which has led_driver.ko in RPi
+- `$ insmod seg_driver.ko` under the folder which has seg_driver.ko in RPi
+- `$ sudo ./hw1` to run the main file for hw1.
+
+## Lab5
+- make sure you have installed 'sl' and 'tmux' already
+  - command : `$ sudo apt install sl tmux`
+- `crtl-b` and `:kill-session` to close the session, otherwise you will leave a zombie process.
+- cpmmand for checking if there is any zombie process : `$ ps aux | grep defunct | grep -v grep`
+
+BUILD
+- We can make on the RPi directly because lab5.c is small enough.
+- `$ make` in the `lab5` folder.
+DEMO
+- `sudo ./demo.sh` in the `lab5` folder.
