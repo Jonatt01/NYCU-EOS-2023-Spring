@@ -1,4 +1,7 @@
 # NYCU-EOS-2023-Spring
+## Pre-lab
+- The codes inside Pre-lab folder is not the pre-lab of 2023. These are sample questions from previous pre-lab `past_exams_1`.
+- The pre-lab question of 2023 is `pre_lab2023`.
 
 ## Lab3
 - led_driver.c is the driver for the leds connnected to GPIO pins
