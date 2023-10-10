@@ -1,5 +1,5 @@
 # NYCU-EOS-2023-Spring
-
+⭐ IMPORTAT : These are backup of my codes. You are not allowed to use them as your own code. And of cource you are not allowed to submit my code to your HW in any class.
 ## Pre-test
 - The codes inside Pre-test folder is not the test of 2023. These are sample questions from previous pre-test `questions/past_exams_1`.
 - The pre-test questions of 2023 is in `questions/entrance_exam_2023`.
