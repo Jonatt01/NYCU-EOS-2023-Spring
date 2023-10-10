@@ -85,6 +85,9 @@ DEMO
 ## Lab6
 TO BE COMPLETE
 
+## Lab7
+TO BE COMPLETE
+
 ## HW3
 - The code is inside the folder `311513025_eos_hw3`.
 - The `somedata.txt` file is the category of testing data which I capture from checker.
