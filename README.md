@@ -1,8 +1,8 @@
 # NYCU-EOS-2023-Spring
 
 ## Pre-test
-- The codes inside Pre-test folder is not the test of 2023. These are sample questions from previous pre-test `past_exams_1`.
-- The pre-test questions of 2023 is in `entrance_exam_2023`.
+- The codes inside Pre-test folder is not the test of 2023. These are sample questions from previous pre-test `questions/past_exams_1`.
+- The pre-test questions of 2023 is in `questions/entrance_exam_2023`.
 
 ## Pre-lab
 - This lab is only environment setting.
