@@ -72,3 +72,28 @@ BUILD
 - `$ make` in the `lab5` folder.
 DEMO
 - `sudo ./demo.sh` in the `lab5` folder.
+
+## HW2
+SOME POINT OF THIS LAB
+- Key point for my method : Make use of a 9*3 table to save the information of waiting people of each area.
+  - In that way, we can report in the correct order with minimum effort. Only need to traverse throught the table.
+- Also you have to get familiar with `strtok` function.
+
+DEMO
+- `sudo ./hw2_checker 127.0.0.1 8080`
+
+## Lab6
+TO BE COMPLETE
+
+## HW3
+- The code is inside the folder `311513025_eos_hw3`.
+- The `somedata.txt` file is the category of testing data which I capture from checker.
+- array_operation.c contains the function which deals with arrays. array_operation.h is the header file.
+- create_socket.c is the program same as hw2 and some labs which need to use socket. Just modulization shorten the server and client code. create_socket.h is the header file.
+- translate.c can do two categories of things. First, translate the string to index. Second, report the status to client when client enter command like `Report | Science Park | Adult 5 | Elder 6`.
+
+DEMO
+- `sudo ./hw3_checker 127.0.0.1 8888`
+
+TODO
+- 合併還沒做，但助教測資抓不出來 (小確幸^^)
